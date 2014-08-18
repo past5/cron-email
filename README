@@ -1,0 +1,7 @@
+The cron email program is written entirely in bash shell script and is able to do the following:
+
+• specify date and time of the cron job, email address of the recipient, and the attachment file;
+• validate the above user-entered variables;
+• format the email in a proper form;
+• identify the type of email attachment and correctly specify mimetype (proper attachments instead of inline attachments are sent);
+• and schedule multiple cron jobs (created mail messages and scripts are identified by date and time).
