@@ -109,7 +109,7 @@ function addtocrontab() {
 #default values for variables to be changed by a user
 cdate=`date +%m/%d/%Y`
 ctime=`date +%H:%M`
-cemail='geraskin@gmail.com'
+cemail='youremail@email.com'
 cfile='test'
 
 #main program loop
