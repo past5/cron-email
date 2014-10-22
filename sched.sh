@@ -54,9 +54,9 @@ function createmailfile() {
 	rm -f $mailfile
 
 	#creating mail message file
-	appendfile $mailfile "From: geraskin@gmail.com"
+	appendfile $mailfile "From: youremail@email.com"
 	appendfile $mailfile "To: $cemail"
-	appendfile $mailfile "Reply-To: geraskin@gmail.com"
+	appendfile $mailfile "Reply-To: youremail@email.com"
 	appendfile $mailfile "Subject: Test Cron Email"
 	appendfile $mailfile "Content-Type: multipart/mixed; boundary=\""$boundary"\""
 	appendfile $mailfile ""
