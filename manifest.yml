@@ -1,0 +1,5 @@
+applications:
+- name: cakephp
+  buildpack: https://github.com/megakote/heroku-buildpack-shell.git
+  instances: 1
+  mem: 128
