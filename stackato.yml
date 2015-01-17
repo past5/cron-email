@@ -1,7 +1,3 @@
 applications:
 - name: cronemail
   mem: 128
-  stackato:
-    hooks:
-      post-staging:
-      - sh sched.sh
