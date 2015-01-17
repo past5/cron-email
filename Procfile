@@ -1,1 +1,1 @@
-web: sh sched.sh
+web: /bin/bash /app/sched.sh
