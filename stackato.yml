@@ -1,3 +1,4 @@
 applications:
 - name: cronemail
+  buildpack: https://github.com/megakote/heroku-buildpack-shell/
   mem: 128
