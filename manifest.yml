@@ -1,5 +1,0 @@
-applications:
-- name: cronemail
-  buildpack: 
-  instances: 1
-  mem: 128
