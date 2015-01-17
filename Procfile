@@ -1,1 +1,1 @@
-web: sh sched.sh
+web: bash sched.sh
